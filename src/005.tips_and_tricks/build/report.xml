@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="5" failures="3" disabled="0" errors="0" time="0." timestamp="2023-11-09T17:30:50.288" name="AllTests">
+  <testsuite name="UnixSuite" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2023-11-09T17:30:50.288">
+    <testcase name="DummyTest1" file="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp" line="3" status="run" result="completed" time="0." timestamp="2023-11-09T17:30:50.288" classname="UnixSuite" />
+    <testcase name="DummyTest2" file="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp" line="12" status="run" result="completed" time="0." timestamp="2023-11-09T17:30:50.288" classname="UnixSuite" />
+  </testsuite>
+  <testsuite name="Win32Suite" tests="3" failures="3" disabled="0" skipped="0" errors="0" time="0." timestamp="2023-11-09T17:30:50.288">
+    <testcase name="DummyTest1" file="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp" line="21" status="run" result="completed" time="0." timestamp="2023-11-09T17:30:50.288" classname="Win32Suite">
+      <failure message="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:26&#x0A;Failed&#x0A;" type=""><![CDATA[/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:26
+Failed
+]]></failure>
+    </testcase>
+    <testcase name="DummyTest2" file="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp" line="29" status="run" result="completed" time="0." timestamp="2023-11-09T17:30:50.288" classname="Win32Suite">
+      <failure message="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:34&#x0A;Failed&#x0A;" type=""><![CDATA[/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:34
+Failed
+]]></failure>
+    </testcase>
+    <testcase name="DummyTest3" file="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp" line="37" status="run" result="completed" time="0." timestamp="2023-11-09T17:30:50.288" classname="Win32Suite">
+      <failure message="/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:42&#x0A;Failed&#x0A;" type=""><![CDATA[/home/s0lid/Sources/edu.gtest/005.tips_and_tricks/test_runner.cpp:42
+Failed
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
